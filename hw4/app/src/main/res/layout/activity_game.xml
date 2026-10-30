@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/game_title" android:textSize="26sp" />
+        <TextView android:id="@+id/rules" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/rules" android:textSize="14sp" />
+        <TextView android:id="@+id/note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/note" android:textSize="12sp" />
+        <TextView android:id="@+id/tvScore" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/game_title" android:textSize="22sp" />
+        <TextView android:id="@+id/tvBest" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/game_title" android:textSize="16sp" />
+        <GridLayout android:id="@+id/cardGrid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:columnCount="4" android:rowCount="4" />
+        <TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/playing" android:textSize="14sp" />
+        <Button android:id="@+id/btnReset" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/reset" />
+        <Button android:id="@+id/btnExit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/exit" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
