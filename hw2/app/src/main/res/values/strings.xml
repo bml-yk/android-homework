@@ -1,8 +1,0 @@
-
-<resources>
-    <string name="app_name">毕美灵2024110101</string>
-    <string name="btn_add_text">动态添加文本</string>
-    <string name="btn_query">查询</string>
-    <string name="hint_input">请输入查询内容</string>
-    <string name="dynamic_text_content">这是动态添加的TextView</string>
-</resources>
