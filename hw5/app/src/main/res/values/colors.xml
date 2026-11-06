@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_hidden">#FF344567</color>
+    <color name="card_hidden_symbol">#FFEBC990</color>
+    <color name="card_border">#FFA8B5C9</color>
+    <color name="card_matched_border">#FF2F915F</color>
+    <color name="card_rank_red">#FFB21A30</color>
+    <color name="card_rank_black">#FF19202C</color>
+</resources>

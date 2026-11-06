@@ -1,0 +1,21 @@
+# Android Studio
+.idea/
+**/.idea/
+*.iml
+
+# Gradle
+.gradle/
+**/.gradle/
+**/build/
+
+# Local machine configuration
+**/local.properties
+
+# Signing files
+*.jks
+*.keystore
+
+# OS and IDE generated files
+.DS_Store
+captures/
+**/captures/
