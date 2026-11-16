@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">毕美灵2024110101</string>
+    <string name="btn_act1">启动 Activity 1（正向传参）</string>
+    <string name="btn_act2">启动 Activity 2（返回结果）</string>
+    <string name="btn_act3">启动 Activity 3（系统相机）</string>
+    <string name="btn_act4">启动 Activity 4（秒表）</string>
+    <string name="act1_title">Activity 1</string>
+    <string name="act2_title">Activity 2</string>
+    <string name="act3_title">Activity 3</string>
+    <string name="act4_title">Activity 4</string>
+    <string name="forward_parameter_value">这是从 MainActivity 传递的正向参数</string>
+    <string name="waiting_for_parameter">等待接收参数…</string>
+    <string name="received_parameter">接收到的参数：%1$s</string>
+    <string name="no_parameter_received">未收到参数</string>
+    <string name="input_hint">请输入要返回的内容</string>
+    <string name="btn_confirm">确定返回</string>
+    <string name="return_result_pending">Activity 2 的返回结果将在这里显示</string>
+    <string name="returned_result">Activity 2 返回：%1$s</string>
+    <string name="empty_return_value">（空内容）</string>
+    <string name="btn_take_photo">调用系统相机拍照</string>
+    <string name="camera_no_image">相机未返回图片数据</string>
+    <string name="camera_cancelled">已取消拍照</string>
+    <string name="camera_unavailable">设备上没有可用的相机应用</string>
+    <string name="camera_permission_denied">未获得相机权限，无法拍照</string>
+    <string name="photo_content_description">拍照结果</string>
+    <string name="btn_start">开始</string>
+    <string name="btn_stop">暂停</string>
+    <string name="btn_reset">重置</string>
+    <string name="stopwatch_initial_time">00:00:000</string>
+    <string name="stopwatch_time_format">%1$02d:%2$02d:%3$03d</string>
+
+    <string name="extra_param_key" translatable="false">param_data</string>
+    <string name="extra_return_key" translatable="false">return_data</string>
+    <string name="camera_result_data_key" translatable="false">data</string>
+    <string name="state_accumulated_key" translatable="false">state_accumulated</string>
+    <string name="state_running_since_key" translatable="false">state_running_since</string>
+    <string name="state_is_running_key" translatable="false">state_is_running</string>
+</resources>
