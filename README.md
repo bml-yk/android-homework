@@ -11,7 +11,7 @@
 | `hw3` | 多 Activity、Intent、相机与 StopWatch |
 | `hw4` | 多 Activity 翻牌游戏 |
 | `hw5` | RecyclerView 三张牌翻牌游戏 |
-| `hw6` | 多 Fragment 应用，`Frag` 分支预留目录，代码待完成 |
+| `hw6` | 多 Fragment 应用、两张牌与三张牌游戏、持久化存储 |
 
 ## 分支用途
 
@@ -25,7 +25,7 @@
 
 `Dev` 和 `Frag` 会保留以前的作业目录。它们不是互相独立的代码快照，而是在前一阶段基础上继续增加或修改作业，避免合并时误删历史内容。
 
-`main` 只通过 Pull Request 更新。作业五通过 `Dev → main` 合并，作业六完成并通过测试后再通过 `Frag → main` 合并。
+`main` 只通过 Pull Request 更新。作业五通过 `Dev → main` 合并，作业六在 `Frag` 分支完成并通过测试后再通过 `Frag → main` 合并。
 
 ## 运行工程
 
@@ -40,6 +40,13 @@
 ```powershell
 cd hw5
 .\gradlew.bat :app:testDebugUnitTest :app:assembleDebug
+```
+
+运行作业六的完整验证：
+
+```powershell
+cd hw6
+.\gradlew.bat :app:testDebugUnitTest :app:assembleDebug :app:assembleDebugAndroidTest
 ```
 
 ## 文档
