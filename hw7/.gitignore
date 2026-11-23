@@ -1,0 +1,17 @@
+*.iml
+.gradle/
+.idea/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+app/release/
+*.jks
+*.keystore
+experiment7_*.png
+docs/*.pdf
+docs/*.apk
+docs/original_pages/
+docs/rendered*/

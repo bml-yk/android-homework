@@ -12,6 +12,7 @@
 | `hw4` | 多 Activity 翻牌游戏 |
 | `hw5` | RecyclerView 三张牌翻牌游戏 |
 | `hw6` | 多 Fragment 应用、两张牌与三张牌游戏、持久化存储 |
+| `hw7` | 基于 Service、MediaPlayer 和 Notification 的音乐播放应用 |
 
 ## 分支用途
 
@@ -24,6 +25,8 @@
 | `master` | 早期作业三历史分支，已过时，不再用于提交 |
 
 `Dev` 和 `Frag` 会保留以前的作业目录。它们不是互相独立的代码快照，而是在前一阶段基础上继续增加或修改作业，避免合并时误删历史内容。
+
+`Frag` 继续承载作业七，`hw7` 中同时保留实验报告和运行截图。
 
 `main` 只通过 Pull Request 更新。作业五通过 `Dev → main` 合并，作业六在 `Frag` 分支完成并通过测试后再通过 `Frag → main` 合并。
 
