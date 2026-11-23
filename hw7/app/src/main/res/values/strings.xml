@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">毕美灵2024110101</string>
+    <string name="experiment_tag">实验七 · Service 音乐播放</string>
+    <string name="header_subtitle">本地音乐，在服务中持续播放</string>
+    <string name="library_title">我的音乐库</string>
+    <string name="library_hint">通过 ContentResolver 读取本地音频</string>
+    <string name="refresh">刷新音乐</string>
+    <string name="scanning">正在扫描本地音频…</string>
+    <string name="permission_short">等待授权</string>
+    <string name="permission_help">Android 13 及以上需要授予“音乐和音频”权限</string>
+    <string name="grant_access">授权读取音乐</string>
+    <string name="waiting_permission">授权后即可读取本地音乐</string>
+    <string name="track_count">%1$d 首歌曲</string>
+    <string name="no_music_help">请先把音频文件放入设备的 Music 文件夹</string>
+    <string name="tap_track_help">点击任意歌曲开始播放</string>
+    <string name="read_failed">读取失败：%1$s</string>
+    <string name="no_music_title">没有找到本地音乐</string>
+    <string name="read_failed_title">无法读取音乐库</string>
+    <string name="no_permission_title">需要音乐读取权限</string>
+    <string name="ready_to_play">准备就绪</string>
+    <string name="player_subtitle">选择本地歌曲，开始你的音乐时间</string>
+    <string name="choose_a_track">选择一首本地音乐</string>
+    <string name="preparing">正在载入</string>
+    <string name="playing">正在播放</string>
+    <string name="paused">已暂停</string>
+    <string name="stopped">已停止</string>
+    <string name="completed">播放完成</string>
+    <string name="playback_error">播放出现错误</string>
+    <string name="loading_track">正在载入《%1$s》</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="previous">上一首</string>
+    <string name="next">下一首</string>
+    <string name="stop">停止</string>
+    <string name="queue_empty">队列为空</string>
+    <string name="queue_position">第 %1$d / %2$d 首</string>
+    <string name="time_zero">0:00</string>
+    <string name="track_list_title">全部歌曲</string>
+    <string name="track_list_hint">SERVICE 播放队列</string>
+    <string name="notification_channel_name">音乐播放</string>
+    <string name="notification_channel_description">显示当前歌曲和播放控制</string>
+    <string name="album_art_description">专辑封面</string>
+</resources>

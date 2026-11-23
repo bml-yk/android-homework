@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.ServiceMusicPlayer" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/background</item>
+        <item name="colorSecondary">@color/success</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ServiceMusicPlayer" parent="Base.Theme.ServiceMusicPlayer" />
+
+    <style name="TextAppearance.ServiceMusicPlayer.Overline" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Widget.ServiceMusicPlayer.PlayerButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="iconTint">@color/text_secondary</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+    </style>
+
+    <style name="Widget.ServiceMusicPlayer.PrimaryButton" parent="Widget.Material3.Button">
+        <item name="android:textSize">12sp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="iconTint">@color/background</item>
+        <item name="cornerRadius">22dp</item>
+    </style>
+</resources>
